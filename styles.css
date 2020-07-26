@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: skyblue;
+}
+
+/*nav bar*/
+nav {
+    background-color: black;
+    display: block;
+    height: 60px;
+}
+
+.shinkai-label {
+    color: white;
+    float: left;
+    font-size: 24px;
+    line-height: 55px;
+    margin: auto 20px;
+}
+
+.menu-bar ul {
+    float: left;
+    list-style: none;
+    margin: 0 25%;
+    position: relative;
+}
+
+.menu-bar ul li {
+    float: left;
+}
+
+.menu-bar ul li a {
+    background-color: gray;
+    border: 1px white solid;
+    color: white;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 14px 14px;
+    margin: 5px 1px 1px;
+    text-decoration: none;
+}
+
+.menu-bar ul li:hover a {
+    background-color: white;
+    color: black;
+}
+
+.films-sub-menu ul {
+    display: none;
+    position: absolute;
+}
+
+.films-sub-menu:hover ul {
+    background-color: white;
+    color: black;
+    display: block;
+    margin-left: 0;
+    width: 180px;    
+}
+
+.films-sub-menu ul li a {
+    margin: 0;
+}
+
+.films-sub-menu ul li a:hover {
+    background-color: #00ffff;
+}
